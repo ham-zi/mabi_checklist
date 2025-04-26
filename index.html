@@ -9,11 +9,20 @@
         padding: 20px;
         background: #f8f9fa;
       }
+
       h1,
       h2 {
         color: #333;
+        text-align : center;
+      }
+
+      .btn {
+        margin : 0 auto;
+        width: 1200px;
       }
       .region {
+        margin: 0 auto;
+        width: 1200px;
         margin-bottom: 30px;
         padding: 10px;
         border-left: 5px solid #888;
@@ -84,9 +93,11 @@
   <body>
     <h1>📦 마비노기 물물교역 체크리스트</h1>
 
-    <button id="filter-btn">🔍 미보유 아이템만 보기</button>
-    <button id="reset-btn">🔄 체크 상태 초기화</button>
-    <button id="desc-toggle-btn">📝 재료 보기</button>
+    <div class="btn">
+      <button id="filter-btn">🔍 미보유 아이템만 보기</button>
+      <button id="reset-btn">🔄 체크 상태 초기화</button>
+      <button id="desc-toggle-btn">📝 재료 보기</button>
+    </div>
 
     <div id="description">
       이 체크리스트는 마비노기 물물교역 아이템을 정리하고, 보유 여부를 쉽게
